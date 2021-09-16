@@ -19,7 +19,8 @@ window.addEventListener('mousemove',
 });
 
 ctx.font = 'bold 20px Verdana';
-ctx.fillText('SAMMED', 0, 40);
+ctx.fillText('Happy B.Day SAM', 0, 40);
+ctx.fillText('Happy B.Day SAM', 0, 40);
 const data = ctx.getImageData(0, 0, canvas.width, 100);
 const sprite = new Image();
 sprite.src = 'https://i.ibb.co/DGqfJpG/butterflies-and-flowers.png';
